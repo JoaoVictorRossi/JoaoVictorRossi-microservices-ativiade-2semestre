@@ -1,6 +1,6 @@
 const express = require('express')
 const route = express.Router()
-const controller = require('../controller/atendente')
+const controller = require('../controller/atendente-controller')
 
 route.get('/', controller.get)
 route.post('/', controller.post)
